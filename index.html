@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TO-DO List</title>
+    <title>Vic's To-Do App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- create a container for the todo list -->
     <div id="todo-container">
-      <!-- todo list header -->
       <div id="header">
         <h1>Vic's To Do List</h1>
       </div>
 
-      <!-- create input box -->
       <div id="todo-form">
         <input
           type="text"
@@ -22,15 +19,12 @@
           placeholder="Add Task"
         />
 
-        <!-- add button -->
         <button id="input-button" onclick="addTask()">Add</button>
       </div>
 
-      <!-- task list -->
       <h2>Task List</h2>
       <ul id="list-container"></ul>
       <hr />
-        <!-- task list counter --> 
         <div class="counter-container">
         <div id="task-counters">
             Completed: <span id="completed-counter">0</span> | Uncompleted:

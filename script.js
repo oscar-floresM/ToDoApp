@@ -37,7 +37,6 @@ function addTask(){
 
     checkbox.addEventListener("click", function(){
         li.classList.toggle("completed", checkbox.checked);
-        //add the function below
         updateCounters();
     });
 
@@ -47,7 +46,6 @@ function addTask(){
         if (update !== null){
             taskSpan.textContent = update;
             li.classList.remove("completed");
-            //add the code below
             checkbox.checked = false;
             updateCounters();
         }
